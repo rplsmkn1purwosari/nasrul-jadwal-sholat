@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/beranda"
+        android:orderInCategory="100"
+        android:title="Home"
+        android:icon="@drawable/beranda"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/alquran"
+        android:orderInCategory="100"
+        android:title="Alqur'an"
+        android:icon="@drawable/book"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/arah_kiblat"
+        android:orderInCategory="100"
+        android:title="Kiblat"
+        android:icon="@drawable/arah_kiblat"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/asmaul_husna"
+        android:orderInCategory="100"
+        android:title="Asmaul Husna"
+        android:icon="@drawable/arah_kiblat"
+        app:showAsAction="never" />
+</menu>
